@@ -61,7 +61,7 @@ function __sf_section_package -d "Display the local package version"
 	if test -z "$package_version"
 		set package_version ⚠
 	else
-		set package_version "v$package_version"
+		set package_version "$package_version"
 	end
 
 	__sf_lib_section \
